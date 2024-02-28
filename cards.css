@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Anta", sans-serif;
+}
+main{
+    /* background-color: rgb(205, 242, 242); */
+    display: flex;
+    justify-content: center;
+
+}
+section{
+    /* background-color: antiquewhite; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+div{
+    background-color: gold;
+    width: 25%;
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+    height: 300pxs;
+    transition: 2s;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+button{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    border: None;
+    color: yellow;
+    font-size: 20px;
+}
+
+img:hover{
+    /* transform: scale(1.2); */
+    filter: blur(20px);
+    
+}
+.img-cont{
+    width: 100%;
+    position: relative;
+
+}
+.titl{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: none;
+}
+.img-cont:hover .titl{
+    display: block;
+}
