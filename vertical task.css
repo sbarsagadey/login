@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Protest Revolution", sans-serif;
+}
+nav{
+    background-color: antiquewhite;
+    width: 10%;
+    height: 100vh;
+
+}
+#menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+}
+a:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+#vmen{
+    list-style-type: none;
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#vdrp{
+    position: relative;
+    
+}
+#vdrp:hover #vmen{
+    display: block;
+}
+#vmn{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+
+}
+#vdr{
+    position: relative;
+}
+#vdr:hover #vmn{
+    display: block;
+}
+#vmenman{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#vdrpman{
+    position: relative;
+}
+#vdrpman:hover #vmenman{
+    display: block;
+}
+
+#nmen{
+    list-style-type: none;
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#ndrp{
+    position: relative;
+    
+}
+#ndrp:hover #nmen{
+    display: block;
+}
+#nmn{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+
+}
+#ndr{
+    position: relative;
+}
+#ndr:hover #nmn{
+    display: block;
+}
+#nmenman{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#ndrpman{
+    position: relative;
+}
+#ndrpman:hover #nmenman{
+    display: block;
+}

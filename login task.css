@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    /* background-color: mintcream; */
+    /* background-color: rgb  */
+    display: flex;
+    justify-content: center;
+}
+form{
+    /* background-color: rgb(228, 221, 221); */
+    width: 25%;
+    border: 2px solid grey;
+    margin-top: 20px;
+    padding: 15px 50px 15px 50px;
+}
+img{
+    width: 100%;
+    /* aspect-ratio: 3/2; */
+    background-repeat: no-repeat;
+    
+}
+input{
+    width: 91%;
+    height: 35px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(243, 180, 45);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* padding: 0px 0px 20px 0px; */
+
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.fa-user{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+.logo-cont{
+    position: relative;
+}
+#a{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "Kalnia", serif;
+    
+}
+#em{
+    text-align: left;
+}
+#pas{
+    text-align: left;
+}
+#we{
+    text-align: center;
+    color: orange;
+    letter-spacing: 3px;
+}
+#bot{
+    display: flex;
+    justify-content: center;
+}

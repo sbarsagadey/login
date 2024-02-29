@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: baseline;
+    height: 100vh;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 40px;
+}
+#menu{
+    background-color: navajowhite;
+    list-style-type: none;
+    display: flex;
+    width: 100vh;
+    padding-left: 0px;
+    
+}
+#vmen{
+    list-style-type: none;
+    display: none;
+    
+    
+}
+#vdrp:hover #vmen{
+    display: block;
+}
+#nmen{
+    list-style-type: none;
+    display: none;
+}
+#ndrp:hover #nmen{
+    display: block;
+}

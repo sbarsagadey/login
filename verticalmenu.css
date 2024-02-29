@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Micro 5", sans-serif;
+}
+nav{
+    background-color: red;
+    width: 10%;
+    height: 100vh;
+ 
+}
+#cont{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+
+}
+a:hover{
+    background-color: beige;
+    color: blue;
+}
+
+/* 
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet; */
+    /* position: absolute; */
+    /* position: relative;
+    display: none;
+
+#drop:hover #menu{
+    display: block;
+}
+
+#lap{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    position: relative;
+    display: none;
+}
+
+#lpdrop:hover #lap{
+    display: block;
+} */
+
+/* right side drop down */
+
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu{
+    display: block;
+}
+
+#lap{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#lpdrop{
+    position: relative;
+}
+#lpdrop:hover #lap{
+    display: block;
+}
+
+#imenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#idrop{
+    position: relative;
+}
+#idrop:hover #imenu{
+    display: block;
+}
+
+#smen{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: bisque;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#sdrop{
+    position: relative;
+}
+#sdrop:hover #smen{
+    display: block;
+}
+
+
+#omen{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#odrp{
+    position: relative;
+}
+#odrp:hover #omen{
+    display: block;
+}
